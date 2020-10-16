@@ -4,6 +4,14 @@ public class Product {
 	int productId;
 	String productName;
 	String productDisciption;
+	int quantity;
+	
+	pubic int getQuantity(){
+		return quantity;
+	}
+	pubic int setQuantity(){
+		this.quantity= quantity;
+	}
 	public int getProductId() {
 		return productId;
 	}
