@@ -4,6 +4,7 @@ public class Product {
 	int productId;
 	String productName;
 	String productDisciption;
+  
 	int quantity;
 	double price;
 	
@@ -16,6 +17,7 @@ public class Product {
 	pubic int setQuantity(int quantity){
 		this.quantity= quantity;
 	}
+
 	public int getProductId() {
 		return productId;
 	}
