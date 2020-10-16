@@ -4,7 +4,20 @@ public class Product {
 	int productId;
 	String productName;
 	String productDisciption;
+  
+	int quantity;
+	double price;
 	
+	public double getPrice(){
+		return price;
+	}
+	pubic int getQuantity(){
+		return quantity;
+	}
+	pubic int setQuantity(int quantity){
+		this.quantity= quantity;
+	}
+
 	public int getProductId() {
 		return productId;
 	}
